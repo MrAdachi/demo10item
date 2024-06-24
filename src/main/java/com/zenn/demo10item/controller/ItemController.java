@@ -1,4 +1,4 @@
-package com.zenn.demo10item;
+package com.zenn.demo10item.controller;
 
 import java.util.ArrayList;
 import java.util.List;
