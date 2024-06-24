@@ -1,2 +1,2 @@
-INSERT INTO demo10item(item_name) VALUES(1, '大豆');
-INSERT INTO demo10item(item_name) VALUES(2, '小豆');
+INSERT INTO demo10item(item_name) VALUES('大豆');
+INSERT INTO demo10item(item_name) VALUES('小豆');
