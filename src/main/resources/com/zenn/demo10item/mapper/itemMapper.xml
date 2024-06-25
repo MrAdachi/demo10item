@@ -8,13 +8,13 @@
         SELECT id , item_name FROM demo10item ORDER BY id
     </select>
     <insert id="insert" useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO demo10item (item_name) VALUES (#{item.itemName})
+        INSERT INTO demo10item (item_name) VALUES (#{itemName})
     </insert>
     <update id="update">
         UPDATE demo10item
-        SET item_name = #{item.itemName}
+        SET item_name = #{itemName}
         WHERE
-            id = #{item.id}
+            id = #{id}
     </update>
     <delete id="delete">
         DELETE FROM demo10item WHERE id = #{id}
